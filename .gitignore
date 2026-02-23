@@ -1,4 +1,17 @@
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# Model files
 models/
+*.pkl
+
+# Environment variables
 .env
+
+# VS Code
+.vscode/
